@@ -1,2 +1,4 @@
 # 7245NucleiIdentification
 The final project of class CSYE7245
+Summary:
+In this paper I managed CNN models to find the location of each nuclei in a histopathological image which has multiple cells. The principle is to divide each pixel into two categories—inside the cell and the background. By predict each pixel inside or outside(background), we can according to the run length encoding file to generate the black and white image to indicate the location of a certain cell. This method reduces the manual work to mark out the individual cell nucleus in a microscope picture. Then calculate the accuracy of the prediction of location of the cell nucleus. I applied the CNN to the medical image dataset, and tried to build different architectures and tuned the parameters to have a higher score of the model value and better precision of the location.
